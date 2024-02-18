@@ -1,0 +1,1 @@
+{"processes":{"9ea8a55b-fc99-4cc7-9485-7a21d66dee15":{"parent":null,"children":["e1bc3627-1226-4000-b051-5a175780ef10"]},"e1bc3627-1226-4000-b051-5a175780ef10":{"parent":"9ea8a55b-fc99-4cc7-9485-7a21d66dee15","children":[]}},"files":{"/home/makiesse/WWW/js_especialist/04-coverage-e2e/api.js":["e1bc3627-1226-4000-b051-5a175780ef10"]},"externalIds":{}}
