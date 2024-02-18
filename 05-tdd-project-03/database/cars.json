@@ -1,0 +1,20 @@
+[
+  {
+    "id": "70d035a0-5aa6-4cd9-b8d8-53793b0b6077",
+    "name": "Focus",
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "a393ee2e-a577-4614-8227-29813a02bac3",
+    "name": "Challenger",
+    "available": true,
+    "gasAvailable": true
+  },
+  {
+    "id": "de6e3441-bf3b-4ca3-8285-f2bddac16feb",
+    "name": "ATS",
+    "available": true,
+    "gasAvailable": true
+  }
+]
