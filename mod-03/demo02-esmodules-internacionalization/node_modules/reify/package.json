@@ -1,0 +1,48 @@
+{
+  "name": "reify",
+  "version": "0.20.12",
+  "main": "node/index.js",
+  "browser": "lib/empty.js",
+  "author": "Ben Newman <ben@benjamn.com>",
+  "description": "Enable ECMAScript 2015 modules in Node today. No caveats. Full stop.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjamn/reify.git"
+  },
+  "keywords": [
+    "ecmascript",
+    "modules",
+    "import",
+    "export",
+    "commonjs",
+    "require",
+    "exports",
+    "node"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/benjamn/reify#readme",
+  "bugs": {
+    "url": "https://github.com/benjamn/reify/issues"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "test/run.sh"
+  },
+  "dependencies": {
+    "acorn": "^6.1.1",
+    "acorn-dynamic-import": "^4.0.0",
+    "magic-string": "^0.25.3",
+    "semver": "^5.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.5.0",
+    "@babel/parser": "7.5.0",
+    "@babel/plugin-transform-runtime": "7.5.0",
+    "@babel/preset-env": "7.5.0",
+    "lodash": "4.17.11",
+    "mocha": "6.1.4",
+    "recast": "0.18.1"
+  }
+}

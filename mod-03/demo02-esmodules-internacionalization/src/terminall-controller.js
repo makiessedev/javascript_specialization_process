@@ -25,7 +25,11 @@ export default class TerminalController {
 		this.data = database.map(item => new Person(item).formatted(language))
 		const table = chalkTable(this.getTableOptions, this.data)
 		this.print = console.draft(table)
+	}
 
+	updatedTable(item) {
+		this.data.push(item)
+		this.print(chalkTable(this.getTableOptions(), this.data))
 	}
 
 	closeTerminal() {

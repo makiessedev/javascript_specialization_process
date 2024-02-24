@@ -1,10 +1,40 @@
-
 [
-	{
-		"id": 1,
-		"vehicles": ["Motocicleta", "Carro", "Caminhão"],
-		"kmTraveled": 10000,
-		"from": "2009-01-01",
-		"to": "2020-11-2"
-	}
+  {
+    "id": 1,
+    "vehicles": [
+      "Motocicleta",
+      "Carro",
+      "Caminhão"
+    ],
+    "kmTraveled": 10000,
+    "from": "2009-01-01",
+    "to": "2020-11-2"
+  },
+  {
+    "id": "02",
+    "vehicles": [
+      "Carro"
+    ],
+    "kmTraveled": "2000000",
+    "from": "2020-02-02",
+    "to": "2021-02-02"
+  },
+  {
+    "id": "02",
+    "vehicles": [
+      "Carro"
+    ],
+    "kmTraveled": "2000000",
+    "from": "2020-02-02",
+    "to": "2021-02-02"
+  },
+  {
+    "id": "03",
+    "vehicles": [
+      "Carro"
+    ],
+    "kmTraveled": "2000000",
+    "from": "2020-02-02",
+    "to": "2021-02-02"
+  }
 ]
