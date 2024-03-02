@@ -1,0 +1,19 @@
+{
+  "name": "02-abstract-factory",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "web": "npx http-server .",
+    "server": "node ui/index.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "chalk-table": "^1.0.2",
+    "http-server": "^14.1.1"
+  }
+}
