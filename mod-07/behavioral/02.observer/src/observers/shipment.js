@@ -1,0 +1,5 @@
+export default class Shipment {
+  update({ userName, id }) {
+    console.log(`[${id}]: [shipment] will pack the user's order to ${userName}`)
+  }
+}
